@@ -71,17 +71,17 @@
 
 - (void)showAdViewWithUrl:(NSURL *)picUrl {
     LaunchAdView *adView = [[LaunchAdView alloc] initWithBgImageUrl:picUrl];
-    [[UIApplication sharedApplication].windows.lastObject addSubview:adView];
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        if ([adView superview]) {
-            [adView removeFromSuperview];
+    __weak typeof(adView) weakAdView = adView;
+    adView.completeBlock = ^{
+        if ([weakAdView superview]) {
+            [weakAdView removeFromSuperview];
         }
-    });
+    };
+    [[UIApplication sharedApplication].windows.lastObject addSubview:adView];
 }
 
 - (void)showAdViewWithImage:(UIImage *)image {
     LaunchAdView *adView = [[LaunchAdView alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    adView.image = image;
     [[UIApplication sharedApplication].windows.lastObject addSubview:adView];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         if ([adView superview]) {
