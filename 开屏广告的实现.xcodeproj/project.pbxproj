@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E0C66B8F6A8A2F1BD36B1AD /* libPods-开屏广告的实现.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08009855EAD328FC6E1A6A84 /* libPods-开屏广告的实现.a */; };
+		B60555F6255E204C00EFACE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B60555F5255E204C00EFACE3 /* AppDelegate.m */; };
+		B60555FC255E204D00EFACE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60555FB255E204D00EFACE3 /* ViewController.m */; };
+		B6055601255E205000EFACE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6055600255E205000EFACE3 /* Assets.xcassets */; };
+		B6055604255E205000EFACE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6055602255E205000EFACE3 /* LaunchScreen.storyboard */; };
+		B6055607255E205000EFACE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6055606255E205000EFACE3 /* main.m */; };
+		B6055611255E205100EFACE3 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6055610255E205100EFACE3 /* _______Tests.m */; };
+		B605561C255E205100EFACE3 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B605561B255E205100EFACE3 /* _______UITests.m */; };
+		B6EA4E06255E331E00ED5D5F /* LaunchAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA4E05255E331E00ED5D5F /* LaunchAdView.m */; };
+		B6EA4E0F255E367400ED5D5F /* GetLaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EA4E0E255E367400ED5D5F /* GetLaunchImage.m */; };
+		CC35D6BE67EC79CE33F8D883 /* libPods-开屏广告的实现Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2B1566D077B4B3FF21B6CB /* libPods-开屏广告的实现Tests.a */; };
+		DC1C614F0F478199985B5492 /* libPods-开屏广告的实现-开屏广告的实现UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBA8153749C01EDC1E0BDC0 /* libPods-开屏广告的实现-开屏广告的实现UITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B605560D255E205100EFACE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B60555E9255E204C00EFACE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B60555F0255E204C00EFACE3;
+			remoteInfo = "开屏广告的实现";
+		};
+		B6055618255E205100EFACE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B60555E9255E204C00EFACE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B60555F0255E204C00EFACE3;
+			remoteInfo = "开屏广告的实现";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08009855EAD328FC6E1A6A84 /* libPods-开屏广告的实现.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-开屏广告的实现.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		299C34701B73EA35F4B90F63 /* Pods-开屏广告的实现.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-开屏广告的实现.release.xcconfig"; path = "Target Support Files/Pods-开屏广告的实现/Pods-开屏广告的实现.release.xcconfig"; sourceTree = "<group>"; };
+		4875EF72EE37EC7E5B0933C3 /* Pods-开屏广告的实现-开屏广告的实现UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-开屏广告的实现-开屏广告的实现UITests.release.xcconfig"; path = "Target Support Files/Pods-开屏广告的实现-开屏广告的实现UITests/Pods-开屏广告的实现-开屏广告的实现UITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F9F8022E9AC2C7088531D4B /* Pods________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods________.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61498487E6AD79C7F3202918 /* Pods-开屏广告的实现Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-开屏广告的实现Tests.debug.xcconfig"; path = "Target Support Files/Pods-开屏广告的实现Tests/Pods-开屏广告的实现Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F4FD60B15FB7690913D92DF /* Pods-开屏广告的实现Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-开屏广告的实现Tests.release.xcconfig"; path = "Target Support Files/Pods-开屏广告的实现Tests/Pods-开屏广告的实现Tests.release.xcconfig"; sourceTree = "<group>"; };
+		70D3B67F3764C4E7E69C8E70 /* Pods-开屏广告的实现-开屏广告的实现UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-开屏广告的实现-开屏广告的实现UITests.debug.xcconfig"; path = "Target Support Files/Pods-开屏广告的实现-开屏广告的实现UITests/Pods-开屏广告的实现-开屏广告的实现UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B60555F1255E204C00EFACE3 /* 开屏广告的实现.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "开屏广告的实现.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60555F4255E204C00EFACE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B60555F5255E204C00EFACE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B60555FA255E204D00EFACE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B60555FB255E204D00EFACE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6055600255E205000EFACE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6055603255E205000EFACE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6055605255E205000EFACE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6055606255E205000EFACE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B605560C255E205100EFACE3 /* 开屏广告的实现Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "开屏广告的实现Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6055610255E205100EFACE3 /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		B6055612255E205100EFACE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6055617255E205100EFACE3 /* 开屏广告的实现UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "开屏广告的实现UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B605561B255E205100EFACE3 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		B605561D255E205100EFACE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6EA4E04255E331E00ED5D5F /* LaunchAdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchAdView.h; sourceTree = "<group>"; };
+		B6EA4E05255E331E00ED5D5F /* LaunchAdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchAdView.m; sourceTree = "<group>"; };
+		B6EA4E0D255E367400ED5D5F /* GetLaunchImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetLaunchImage.h; sourceTree = "<group>"; };
+		B6EA4E0E255E367400ED5D5F /* GetLaunchImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetLaunchImage.m; sourceTree = "<group>"; };
+		CAE9734A1FC92C07799ACE46 /* Pods-开屏广告的实现.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-开屏广告的实现.debug.xcconfig"; path = "Target Support Files/Pods-开屏广告的实现/Pods-开屏广告的实现.debug.xcconfig"; sourceTree = "<group>"; };
+		CD2B1566D077B4B3FF21B6CB /* libPods-开屏广告的实现Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-开屏广告的实现Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBA8153749C01EDC1E0BDC0 /* libPods-开屏广告的实现-开屏广告的实现UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-开屏广告的实现-开屏广告的实现UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B60555EE255E204C00EFACE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0C66B8F6A8A2F1BD36B1AD /* libPods-开屏广告的实现.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6055609255E205100EFACE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC35D6BE67EC79CE33F8D883 /* libPods-开屏广告的实现Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6055614255E205100EFACE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1C614F0F478199985B5492 /* libPods-开屏广告的实现-开屏广告的实现UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33EFE767403B22B6A50CA9F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAE9734A1FC92C07799ACE46 /* Pods-开屏广告的实现.debug.xcconfig */,
+				299C34701B73EA35F4B90F63 /* Pods-开屏广告的实现.release.xcconfig */,
+				70D3B67F3764C4E7E69C8E70 /* Pods-开屏广告的实现-开屏广告的实现UITests.debug.xcconfig */,
+				4875EF72EE37EC7E5B0933C3 /* Pods-开屏广告的实现-开屏广告的实现UITests.release.xcconfig */,
+				61498487E6AD79C7F3202918 /* Pods-开屏广告的实现Tests.debug.xcconfig */,
+				6F4FD60B15FB7690913D92DF /* Pods-开屏广告的实现Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3501374ADF62669616F03676 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F9F8022E9AC2C7088531D4B /* Pods________.framework */,
+				08009855EAD328FC6E1A6A84 /* libPods-开屏广告的实现.a */,
+				DCBA8153749C01EDC1E0BDC0 /* libPods-开屏广告的实现-开屏广告的实现UITests.a */,
+				CD2B1566D077B4B3FF21B6CB /* libPods-开屏广告的实现Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B60555E8255E204C00EFACE3 = {
+			isa = PBXGroup;
+			children = (
+				B60555F3255E204C00EFACE3 /* 开屏广告的实现 */,
+				B605560F255E205100EFACE3 /* 开屏广告的实现Tests */,
+				B605561A255E205100EFACE3 /* 开屏广告的实现UITests */,
+				B60555F2255E204C00EFACE3 /* Products */,
+				33EFE767403B22B6A50CA9F6 /* Pods */,
+				3501374ADF62669616F03676 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B60555F2255E204C00EFACE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B60555F1255E204C00EFACE3 /* 开屏广告的实现.app */,
+				B605560C255E205100EFACE3 /* 开屏广告的实现Tests.xctest */,
+				B6055617255E205100EFACE3 /* 开屏广告的实现UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B60555F3255E204C00EFACE3 /* 开屏广告的实现 */ = {
+			isa = PBXGroup;
+			children = (
+				B60555F4255E204C00EFACE3 /* AppDelegate.h */,
+				B60555F5255E204C00EFACE3 /* AppDelegate.m */,
+				B60555FA255E204D00EFACE3 /* ViewController.h */,
+				B60555FB255E204D00EFACE3 /* ViewController.m */,
+				B6EA4E04255E331E00ED5D5F /* LaunchAdView.h */,
+				B6EA4E05255E331E00ED5D5F /* LaunchAdView.m */,
+				B6EA4E0D255E367400ED5D5F /* GetLaunchImage.h */,
+				B6EA4E0E255E367400ED5D5F /* GetLaunchImage.m */,
+				B6055600255E205000EFACE3 /* Assets.xcassets */,
+				B6055602255E205000EFACE3 /* LaunchScreen.storyboard */,
+				B6055605255E205000EFACE3 /* Info.plist */,
+				B6055606255E205000EFACE3 /* main.m */,
+			);
+			path = "开屏广告的实现";
+			sourceTree = "<group>";
+		};
+		B605560F255E205100EFACE3 /* 开屏广告的实现Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B6055610255E205100EFACE3 /* _______Tests.m */,
+				B6055612255E205100EFACE3 /* Info.plist */,
+			);
+			path = "开屏广告的实现Tests";
+			sourceTree = "<group>";
+		};
+		B605561A255E205100EFACE3 /* 开屏广告的实现UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B605561B255E205100EFACE3 /* _______UITests.m */,
+				B605561D255E205100EFACE3 /* Info.plist */,
+			);
+			path = "开屏广告的实现UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B60555F0255E204C00EFACE3 /* 开屏广告的实现 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6055620255E205100EFACE3 /* Build configuration list for PBXNativeTarget "开屏广告的实现" */;
+			buildPhases = (
+				11DF871630726BCA8FCFCEF9 /* [CP] Check Pods Manifest.lock */,
+				B60555ED255E204C00EFACE3 /* Sources */,
+				B60555EE255E204C00EFACE3 /* Frameworks */,
+				B60555EF255E204C00EFACE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "开屏广告的实现";
+			productName = "开屏广告的实现";
+			productReference = B60555F1255E204C00EFACE3 /* 开屏广告的实现.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B605560B255E205100EFACE3 /* 开屏广告的实现Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6055623255E205100EFACE3 /* Build configuration list for PBXNativeTarget "开屏广告的实现Tests" */;
+			buildPhases = (
+				9FAC6B3897D682131AE743E3 /* [CP] Check Pods Manifest.lock */,
+				B6055608255E205100EFACE3 /* Sources */,
+				B6055609255E205100EFACE3 /* Frameworks */,
+				B605560A255E205100EFACE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B605560E255E205100EFACE3 /* PBXTargetDependency */,
+			);
+			name = "开屏广告的实现Tests";
+			productName = "开屏广告的实现Tests";
+			productReference = B605560C255E205100EFACE3 /* 开屏广告的实现Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6055616255E205100EFACE3 /* 开屏广告的实现UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6055626255E205100EFACE3 /* Build configuration list for PBXNativeTarget "开屏广告的实现UITests" */;
+			buildPhases = (
+				0A18FDA10ED499D629D2F06D /* [CP] Check Pods Manifest.lock */,
+				B6055613255E205100EFACE3 /* Sources */,
+				B6055614255E205100EFACE3 /* Frameworks */,
+				B6055615255E205100EFACE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6055619255E205100EFACE3 /* PBXTargetDependency */,
+			);
+			name = "开屏广告的实现UITests";
+			productName = "开屏广告的实现UITests";
+			productReference = B6055617255E205100EFACE3 /* 开屏广告的实现UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B60555E9255E204C00EFACE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					B60555F0255E204C00EFACE3 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					B605560B255E205100EFACE3 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B60555F0255E204C00EFACE3;
+					};
+					B6055616255E205100EFACE3 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B60555F0255E204C00EFACE3;
+					};
+				};
+			};
+			buildConfigurationList = B60555EC255E204C00EFACE3 /* Build configuration list for PBXProject "开屏广告的实现" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B60555E8255E204C00EFACE3;
+			productRefGroup = B60555F2255E204C00EFACE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B60555F0255E204C00EFACE3 /* 开屏广告的实现 */,
+				B605560B255E205100EFACE3 /* 开屏广告的实现Tests */,
+				B6055616255E205100EFACE3 /* 开屏广告的实现UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B60555EF255E204C00EFACE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6055604255E205000EFACE3 /* LaunchScreen.storyboard in Resources */,
+				B6055601255E205000EFACE3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B605560A255E205100EFACE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6055615255E205100EFACE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A18FDA10ED499D629D2F06D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-开屏广告的实现-开屏广告的实现UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11DF871630726BCA8FCFCEF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-开屏广告的实现-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FAC6B3897D682131AE743E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-开屏广告的实现Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B60555ED255E204C00EFACE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EA4E06255E331E00ED5D5F /* LaunchAdView.m in Sources */,
+				B6EA4E0F255E367400ED5D5F /* GetLaunchImage.m in Sources */,
+				B60555FC255E204D00EFACE3 /* ViewController.m in Sources */,
+				B60555F6255E204C00EFACE3 /* AppDelegate.m in Sources */,
+				B6055607255E205000EFACE3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6055608255E205100EFACE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6055611255E205100EFACE3 /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6055613255E205100EFACE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B605561C255E205100EFACE3 /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B605560E255E205100EFACE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B60555F0255E204C00EFACE3 /* 开屏广告的实现 */;
+			targetProxy = B605560D255E205100EFACE3 /* PBXContainerItemProxy */;
+		};
+		B6055619255E205100EFACE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B60555F0255E204C00EFACE3 /* 开屏广告的实现 */;
+			targetProxy = B6055618255E205100EFACE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6055602255E205000EFACE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6055603255E205000EFACE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B605561E255E205100EFACE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B605561F255E205100EFACE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6055621255E205100EFACE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE9734A1FC92C07799ACE46 /* Pods-开屏广告的实现.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NC2M6D7A5Q;
+				INFOPLIST_FILE = "开屏广告的实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greatyun.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6055622255E205100EFACE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 299C34701B73EA35F4B90F63 /* Pods-开屏广告的实现.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NC2M6D7A5Q;
+				INFOPLIST_FILE = "开屏广告的实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greatyun.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6055624255E205100EFACE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61498487E6AD79C7F3202918 /* Pods-开屏广告的实现Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NC2M6D7A5Q;
+				INFOPLIST_FILE = "开屏广告的实现Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greatyun.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/开屏广告的实现.app/开屏广告的实现";
+			};
+			name = Debug;
+		};
+		B6055625255E205100EFACE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F4FD60B15FB7690913D92DF /* Pods-开屏广告的实现Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NC2M6D7A5Q;
+				INFOPLIST_FILE = "开屏广告的实现Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greatyun.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/开屏广告的实现.app/开屏广告的实现";
+			};
+			name = Release;
+		};
+		B6055627255E205100EFACE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70D3B67F3764C4E7E69C8E70 /* Pods-开屏广告的实现-开屏广告的实现UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NC2M6D7A5Q;
+				INFOPLIST_FILE = "开屏广告的实现UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greatyun.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "开屏广告的实现";
+			};
+			name = Debug;
+		};
+		B6055628255E205100EFACE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4875EF72EE37EC7E5B0933C3 /* Pods-开屏广告的实现-开屏广告的实现UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NC2M6D7A5Q;
+				INFOPLIST_FILE = "开屏广告的实现UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greatyun.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "开屏广告的实现";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B60555EC255E204C00EFACE3 /* Build configuration list for PBXProject "开屏广告的实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B605561E255E205100EFACE3 /* Debug */,
+				B605561F255E205100EFACE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6055620255E205100EFACE3 /* Build configuration list for PBXNativeTarget "开屏广告的实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6055621255E205100EFACE3 /* Debug */,
+				B6055622255E205100EFACE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6055623255E205100EFACE3 /* Build configuration list for PBXNativeTarget "开屏广告的实现Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6055624255E205100EFACE3 /* Debug */,
+				B6055625255E205100EFACE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6055626255E205100EFACE3 /* Build configuration list for PBXNativeTarget "开屏广告的实现UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6055627255E205100EFACE3 /* Debug */,
+				B6055628255E205100EFACE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B60555E9255E204C00EFACE3 /* Project object */;
+}

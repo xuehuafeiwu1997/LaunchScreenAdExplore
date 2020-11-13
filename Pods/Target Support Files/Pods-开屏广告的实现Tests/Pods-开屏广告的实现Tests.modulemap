@@ -1,0 +1,6 @@
+framework module Pods________Tests {
+  umbrella header "Pods-开屏广告的实现Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
