@@ -89,6 +89,7 @@
     }
     _bgImageView = [[UIImageView alloc] initWithFrame:self.bounds];
     _bgImageView.contentMode = UIViewContentModeScaleAspectFill;
+    _bgImageView.userInteractionEnabled = YES;
     _bgImageView.layer.masksToBounds = YES;
     return _bgImageView;
 }
