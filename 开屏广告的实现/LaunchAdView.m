@@ -16,7 +16,6 @@
 @property (nonatomic, strong) UIImageView *bgImageView;
 @property (nonatomic, strong) NSURL *picUrl;
 @property (nonatomic, strong) UIButton *skipAdButton;
-@property (nonatomic, strong) NSTimer *timer;
 
 @end
 
@@ -96,14 +95,6 @@
     [_skipAdButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [_skipAdButton addTarget:self action:@selector(skipAdButtonClicked) forControlEvents:UIControlEventTouchUpInside];
     return _skipAdButton;
-}
-
-- (NSTimer *)timer {
-    if (_timer) {
-        return _timer;
-    }
-    _timer = [NSTimer scheduledTimerWithTimeInterval:<#(NSTimeInterval)#> repeats:<#(BOOL)#> block:<#^(NSTimer * _Nonnull timer)block#>];
-    return _timer;
 }
 
 @end
