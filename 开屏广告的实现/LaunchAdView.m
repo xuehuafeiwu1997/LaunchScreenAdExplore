@@ -104,7 +104,7 @@
     _skipAdButton.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.3];
     _skipAdButton.titleLabel.font = [UIFont systemFontOfSize:13];
     [_skipAdButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    _skipAdButton.userInteractionEnabled = YES;
+    _skipAdButton.userInteractionEnabled = YES;//必须设置为YES，因为UIImageView默认不接受任何时间，button是添加在UIImageView上，不设置为YES，button的点击事件不会相应
     [_skipAdButton addTarget:self action:@selector(skipAdButtonClicked) forControlEvents:UIControlEventTouchUpInside];
     return _skipAdButton;
 }
